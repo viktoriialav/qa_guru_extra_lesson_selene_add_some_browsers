@@ -31,6 +31,7 @@ def test_add_todos_complete_one_and_clear():
 def test_add_todos_and_complete_one():
     browser.open('/')
     browser.should(have.title_containing('TodoMVC'))
+
     if browser.wait_until(have.title('TodoMVC')):
         print('Yahoo! Title is correct!')
     else:

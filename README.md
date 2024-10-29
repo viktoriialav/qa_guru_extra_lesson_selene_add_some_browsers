@@ -1,0 +1,1 @@
+How open one or more browsers in one test and close them, and some work with selectors and selene's methods
